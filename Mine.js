@@ -18,7 +18,7 @@ let songs = [
     { Songname: "Drag me Down",   filePath:"songs/6.mp3", coverpath:"covers/2.jpg"},
 ]
 
-SongItems.forEach((element, i) => {
+    SongItems.forEach((element, i) => {
      element.getElementsByTagName("img")[0].src = songs[i].coverpath;
     element.getElementsByClassName("Songname")[0].innerText = songs[i].Songname;
 
